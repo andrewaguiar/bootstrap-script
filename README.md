@@ -8,7 +8,7 @@ mkdir ~/dev
 mkdir ~/dev/bin
 ```
 
-### - Linux tools
+### Linux tools
 
 ```
 sudo pacman -Sy \
