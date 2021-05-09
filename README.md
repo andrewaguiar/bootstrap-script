@@ -1,14 +1,12 @@
 # Bootstrap Script
 
-## Install
-
 ```
 cd ~
 mkdir ~/dev
 mkdir ~/dev/bin
 ```
 
-### Linux tools
+## Linux tools
 
 ```
 sudo pacman -Sy \
@@ -23,9 +21,9 @@ sudo pacman -Sy \
   screenfetch
 ```
 
-### Other tools
+## Other tools
 
-#### asdf
+### asdf
 
 ```
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf
@@ -33,19 +31,19 @@ cd ~/.asdf
 git checkout "$(git describe --abbrev=0 --tags)"
 ```
 
-#### heroku
+### heroku
 
 ```
 curl https://cli-assets.heroku.com/install.sh | sh
 ```
 
-#### ngrok
+### ngrok
 
 ```
 echo "Download from https://ngrok.com/download and follow instructions" && read
 ```
 
-#### rpx
+### rpx
 
 ```
 wget https://raw.githubusercontent.com/andrewaguiar/rpx/master/bin/rpx
@@ -53,9 +51,9 @@ chmod +x rpx
 mv rpx ~/dev/bin
 ```
 
-### Dotfiles
+## Dotfiles
 
-#### bashrc, bash_profile, neovimfiles
+### bashrc, bash_profile, neovimfiles
 
 ```
 cd ~
@@ -63,7 +61,7 @@ git clone git@github.com:andrewaguiar/dotfiles.git
 git clone git@github.com:andrewaguiar/neovimfiles.git
 ```
 
-### Other softwares
+## Other softwares
 
 ```
 pamac install firefox
