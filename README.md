@@ -68,6 +68,7 @@ pamac install firefox
 pamac install chromedriver
 pamac install google-chrome
 pamac install thunar
+pamac install dropbox
 flatpak install us.zoom.Zoom
 flatpak install org.signal.Signal
 flatpak install com.slack.Slack
