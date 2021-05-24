@@ -18,6 +18,7 @@ sudo pacman -Sy \
   git \
   neovim \
   flatpak \
+  ncdu \
   screenfetch
 ```
 
@@ -74,4 +75,8 @@ flatpak install org.signal.Signal
 flatpak install com.slack.Slack
 flatpak install com.skype.Client
 flatpak install org.gnome.Cheese
+```
+
+```
+echo "Balena Etcher flash os images: https://www.balena.io/etcher/"
 ```
