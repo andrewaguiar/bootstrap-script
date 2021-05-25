@@ -3,6 +3,32 @@
 ![Mountain Background](./mountain.jpg)
 
 ```
+ ██████████████████  ████████
+ ██████████████████  ████████
+ ██████████████████  ████████
+ ██████████████████  ████████
+ ████████            ████████
+ ████████  ████████  ████████
+ ████████  ████████  ████████
+ ████████  ████████  ████████
+ ████████  ████████  ████████
+ ████████  ████████  ████████
+ ████████  ████████  ████████
+ ████████  ████████  ████████
+ ████████  ████████  ████████
+ ████████  ████████  ████████
+
+DE: Xfce4
+WM: Xfwm4
+WM Theme: Numix
+GTK Theme: Numix [GTK2]
+Icon Theme: Papirus
+Font: Cantarell 9
+```
+
+## Prepare home
+
+```
 cd ~
 mkdir ~/dev
 mkdir ~/dev/bin
@@ -83,3 +109,4 @@ flatpak install org.gnome.Cheese
 ```
 echo "Balena Etcher flash os images: https://www.balena.io/etcher/"
 ```
+
