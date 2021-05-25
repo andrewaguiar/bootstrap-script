@@ -1,5 +1,7 @@
 # Bootstrap Script
 
+![Mountain Background](./mountain.jpg)
+
 ```
 cd ~
 mkdir ~/dev
@@ -19,6 +21,7 @@ sudo pacman -Sy \
   neovim \
   flatpak \
   ncdu \
+  ctop \
   screenfetch
 ```
 
