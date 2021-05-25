@@ -3,27 +3,12 @@
 ![Mountain Background](./mountain.jpg)
 
 ```
- ██████████████████  ████████
- ██████████████████  ████████
- ██████████████████  ████████
- ██████████████████  ████████
- ████████            ████████
- ████████  ████████  ████████
- ████████  ████████  ████████
- ████████  ████████  ████████
- ████████  ████████  ████████
- ████████  ████████  ████████
- ████████  ████████  ████████
- ████████  ████████  ████████
- ████████  ████████  ████████
- ████████  ████████  ████████
-
-DE: Xfce4
-WM: Xfwm4
-WM Theme: Numix
-GTK Theme: Numix [GTK2]
-Icon Theme: Papirus
-Font: Cantarell 9
+echo "DE: Xfce4"
+echo "WM: Xfwm4"
+echo "WM Theme: Numix"
+echo "GTK Theme: Numix [GTK2]"
+echo "Icon Theme: Papirus"
+echo "Font: Cantarell 9"
 ```
 
 ## Prepare home
