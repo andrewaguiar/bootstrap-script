@@ -33,6 +33,8 @@ sudo pacman -Sy \
   flatpak \
   ncdu \
   ctop \
+  httpie \
+  tldr \
   screenfetch
 ```
 
