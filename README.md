@@ -34,6 +34,7 @@ sudo pacman -Sy \
   ncdu \
   ctop \
   httpie \
+  xsel \
   tldr \
   screenfetch
 ```
