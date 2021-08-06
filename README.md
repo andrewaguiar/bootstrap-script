@@ -25,12 +25,14 @@ mkdir ~/dev/bin
 sudo pacman -Sy curl
 sudo pacman -Sy tree
 sudo pacman -Sy htop
-sudo pacman -Sy ag
+sudo pacman -Sy the_silver_searcher
 sudo pacman -Sy docker
 sudo pacman -Sy terminator
 sudo pacman -Sy git
 sudo pacman -Sy neovim
 sudo pacman -Sy flatpak
+sudo pacman -Sy ranger
+sudo pacman -Sy fzf
 sudo pacman -Sy ncdu
 sudo pacman -Sy ctop
 sudo pacman -Sy httpie
