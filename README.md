@@ -22,21 +22,38 @@ mkdir ~/dev/bin
 ## Linux tools
 
 ```
-sudo pacman -Sy \
-  curl \
-  tree \
-  htop \
-  ag \
-  docker \
-  git \
-  neovim \
-  flatpak \
-  ncdu \
-  ctop \
-  httpie \
-  xsel \
-  tldr \
-  screenfetch
+sudo pacman -Sy curl
+sudo pacman -Sy tree
+sudo pacman -Sy htop
+sudo pacman -Sy ag
+sudo pacman -Sy docker
+sudo pacman -Sy terminator
+sudo pacman -Sy git
+sudo pacman -Sy neovim
+sudo pacman -Sy flatpak
+sudo pacman -Sy ncdu
+sudo pacman -Sy ctop
+sudo pacman -Sy httpie
+sudo pacman -Sy xsel
+sudo pacman -Sy tldr
+sudo pacman -Sy screenfetch
+sudo pacman -Sy rofi
+```
+
+## Numix Theme
+
+According https://github.com/numixproject/numix-gtk-theme#build-it
+
+```
+git clone git@github.com:numixproject/numix-gtk-theme.git
+cd numix-gtk-theme
+
+sudo pacman -S sassc glib2 gdk-pixbuf2
+
+sudo make install
+
+xfconf-query -c xsettings -p /Net/ThemeName -s "Numix"
+xfconf-query -c xfwm4 -p /general/theme -s "Numix"
 ```
 
 ## Other tools
