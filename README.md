@@ -115,3 +115,4 @@ flatpak install org.gnome.Cheese
 echo "Balena Etcher flash os images: https://www.balena.io/etcher/"
 ```
 
+EOF
