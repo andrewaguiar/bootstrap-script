@@ -23,6 +23,7 @@ mkdir ~/dev/bin
 
 ```
 sudo pacman -Sy curl
+sudo pacman -Sy bat
 sudo pacman -Sy tree
 sudo pacman -Sy htop
 sudo pacman -Sy the_silver_searcher
@@ -40,6 +41,9 @@ sudo pacman -Sy xsel
 sudo pacman -Sy tldr
 sudo pacman -Sy screenfetch
 sudo pacman -Sy rofi
+sudo pacman -Sy aws-cli
+sudo pacman -Sy inotify-tools
+sudo pacman -Sy postgresql
 ```
 
 ## Numix Theme
