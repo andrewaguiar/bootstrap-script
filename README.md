@@ -44,6 +44,7 @@ sudo pacman -Sy rofi
 sudo pacman -Sy aws-cli
 sudo pacman -Sy inotify-tools
 sudo pacman -Sy postgresql
+sudo pacman -S noto-fonts-emoji
 ```
 
 ## Numix Theme
@@ -115,10 +116,18 @@ flatpak install org.signal.Signal
 flatpak install com.slack.Slack
 flatpak install com.skype.Client
 flatpak install org.gnome.Cheese
+flatpak install flathub com.belmoussaoui.Authenticator
+flatpak install flathub com.getpostman.Postman
 ```
 
 ```
 echo "Balena Etcher flash os images: https://www.balena.io/etcher/"
 ```
 
-EOF
+## Copy some configs to home
+
+```
+cp HOME/config/rofi ~/.config/rofi
+cp HOME/config/gtk-3.0 ~/.config/gtk-3.0
+cp HOME/config/terminator ~/.config/terminator
+```
